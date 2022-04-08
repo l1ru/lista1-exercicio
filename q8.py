@@ -1,0 +1,10 @@
+a = int(input("Insira o dado 1: "))
+b = int(input("Insira o dado 2: "))
+c = int(input("Insira o dado 3: "))
+d = int(input("Insira o dado 4: "))
+e = int(input("Insira o dado 5: "))
+f = int(input("Insira o dado 6: "))
+
+x = ((c*e)-(b*f)) / ((a*e)-(b*d))
+y = ((a*f)-(c*d)) / ((a*e)-(b*d))
+print(f" O valor de x é = {x}\n o valor de y é = {y}")
